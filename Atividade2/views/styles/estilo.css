@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+/**Caso eu queira outro tom de azul -  #25416B #215DB8**/
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Flex';
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+}
+header{
+    background-color: #13366B;
+    color: #fff;
+    height: 40px;
+    padding-top: 8px;
+    border: 1px solid #fff;
+    width: 100%;
+}
+nav{
+    background-color: #2A77EB;
+    border: 1px solid #fff;
+    width: 100%;
+}
+#pesquisa{
+    display: flex;
+    height: 100px;
+}
+#pesquisa input{
+    border: none;
+    flex-direction: column;
+    height: 50px;
+    width: 500px;
+    border-radius: 5px 0 0 5px;
+    font-size: 12pt;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-left:10px;
+}
+
+#pesquisa button{
+    background-color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+#pes{
+    width: 100%;
+    padding: 5px;
+}
+#logonav{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#pesquisa h1{
+    margin-top: 15px;
+    color: #fff;
+    font-size: 30pt;
+    margin-left: 40px;
+    font-family: 'Pacifico';
+}
+#links{
+    display: flex;
+    padding: 20px 30px;
+    background-color: #2A77EB;
+    font-size: 1em;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+#contatos{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8em;
+}
+#icones{
+    display: flex;
+    color: #fff;
+    justify-content: right;
+    margin-right: 8%;
+}
+figure{
+    width: 220px;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+}
+figure:hover {
+    border: 2px solid #2A77EB;
+    cursor: pointer;
+}
+#nome{
+    color: rgb(129, 129, 129);
+    font-size: 12pt;
+}
+#preco{
+    color: rgb(255, 0, 0);
+    font-size: 15pt;
+    font-family: arial black;
+    margin-top: 5px;
+}
+#container figure img{
+    max-width: 100%; 
+    max-height: 220px;
+    min-height: 220px;
+    object-fit: contain;
+}
+html{
+    scroll-behavior: smooth;
+}
+input,textarea {
+	outline: none;
+	border: none;
+}
+button{
+	border: none;
+}
+#contato{
+    display: flex;
+    justify-content: space-evenly;
+}
+form{
+  width: 70%;
+  background-color: #fff;
+  margin: 0;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.entrada {  
+  padding: 0 30px;
+  margin-bottom: 20px;
+  width: 100%;  
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000;
+  background-color: #f0f0f0;
+  height: 40px;
+  border-radius: 10px;  
+  margin-top: 10px;   
+}
+.campotexto {
+  height: 100px;
+  padding-top: 10px;
+}
+.btn {
+  border-radius: 10px;  
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  padding: 0 25px;
+  width: auto;
+  height: 40px;
+  margin: auto;
+  background-color: #2A77EB;
+}
+.btn:hover {
+  background: #666666;
+  cursor: pointer;
+}
+footer{
+    background-color: #2A77EB;
+    height: auto;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+#flexi{
+    display: flex;
+    color: #fff;
+}
+#nomes{
+    text-align: justify;
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#icones2{
+    font-size: 18pt;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-right: 68px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#formasdepag{
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+}
+#iconespag{
+    font-size: 18pt;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+nav .fa-solid{
+    font-size: 0.8em;
+    margin-left: 10px;
+    color: #fff;
+}
+footer .fa-solid{
+    font-size: 0.8em;
+    margin-left: 10px;
+    color: #fff;
+}
+#carnesfrangos, #manteiga, #graos, #temperos, #doces, #bebidas, #higienelimpeza, #verduraslegumes, #frutas, #descricao{
+    display: flex;
+    flex-wrap: wrap;
+}
+#peixesderivados{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+#container #titulo1, #titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7, #titulo8, #titulo9, #titulo10{
+    color: #2A77EB;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 100%;
+    font-size: 20pt;
+}
+#titulo1 #titulo2 #titulo3 #titulo4 #titulo5 #titulo6 #titulo7 #titulo8 #titulo9 #titulo10, hr{
+    margin-right: 5%;
+}
+#links hr{
+    display: none;
+}
+    @media screen and (max-width: 1172px) and (min-width: 769px){ 
+        *{
+            flex-direction: row;
+            flex-wrap: wrap;
+        }  
+        #container{
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            text-align: justify;
+            margin-top: 20px;
+            margin-bottom: 20px ;
+        }
+        #pesquisa input{
+            border: none;
+            height: 40px;
+            width: 250px;
+            border-radius: 5px 0 0 5px;
+            font-size: 12pt;
+            margin-top: 30px;
+            padding-left: 10px;
+        }
+        #pesquisa button{
+            background-color: #fff;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            height: 40px;
+            width: 30px;
+            margin-top: 30px;
+            margin-right: 30px;
+        }
+        figure{
+            width: 700px;
+            flex-direction: column;
+            height: 340px;
+            margin: 25px auto;
+        }
+        #container #titulo1, #titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7, #titulo8, #titulo9, #titulo10{
+            width: 100%;
+            margin: 0px;
+            text-align: center;
+            margin-bottom: 10px;   
+        }
+        #titulo1 #titulo2 #titulo3 #titulo4 #titulo5 #titulo6 #titulo7 #titulo8 #titulo9 #titulo10, hr{
+            margin-right: 5%;
+            margin-left: 5%;
+        }   
+        #contatos{
+            display: none;
+        }
+        #logonav{
+            width: 80px;
+            object-fit: contain;
+            margin-right: auto;
+        }
+        nav{
+            flex-direction: row;
+        }
+        #links{
+            text-align: left;
+            justify-content: center;
+            padding: 0%;
+            margin-bottom: 30px;
+        }
+        #links a {
+            font-size: 1.3em;
+            padding: 10px;
+        }
+        #links hr{
+            display: block;
+            border: 1px solid #fff;
+            width: 100%;
+            margin: 0px;
+        }
+    }
+            @media screen and (max-width: 768px) and (min-width: 385px){ 
+                *{
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                }      
+                #container{
+                    display: flex;
+                    flex-wrap: wrap;
+                    height: auto;
+                    text-align: justify;
+                    margin-top: 20px;
+                    margin-bottom: 20px ;
+                }
+                nav input{
+                    display: none;
+                }
+                nav button{
+                    display: none;
+                }
+                figure{
+                    width: 350px;
+                    flex-direction: column;
+                    height: 340px;
+                    margin: 25px auto;
+                }
+                #container #titulo1, #titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7, #titulo8, #titulo9,        #titulo10{
+                    width: 100%;
+                    margin: 0px;
+                    text-align: center;    
+                }
+                footer{
+                    display: flex;
+                    flex-wrap: wrap;
+                    height: auto;
+                    text-align: justify;
+                }
+                #formasdepag{
+                    width: 100%;
+                }
+                #iconespag{
+                    font-size: 18pt;
+                    margin-top: 5px;
+                    margin-left: 40px;
+                    margin-bottom: 10px;
+                }
+                #titulo1 #titulo2 #titulo3 #titulo4 #titulo5 #titulo6 #titulo7 #titulo8 #titulo9 #titulo10, hr{
+                    margin-right: 5%;
+                    margin-left: 5%;
+                }
+                nav{
+                    flex-direction: row;
+                }
+                #links{
+                    display: block;
+                    text-align: center;
+                    line-height: 40px;
+                    padding: 0%;
+                    margin-bottom: 30px;
+                }
+                #links a {
+                    font-size: 1.5em;
+                }
+                #contatos{
+                    display: none;
+                }
+                #logonav{
+                    width: 80px;
+                    object-fit: contain;
+                    margin: auto;
+                }
+                #pesquisa h1{
+                    margin: auto;
+                }
+                #links hr{
+                    display: block;
+                    border: 1px solid #fff;
+                    width: 100%;
+                    margin: 0px;
+                }
+            }
+                    @media screen and (max-width: 384px) { 
+                        *{
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                        }
+                        #pesquisa h1{
+                            margin-top: 15px;
+                            color: #fff;
+                            font-size: 25pt;
+                            margin-left: 40px;
+                            font-family: 'Pacifico';
+                        }      
+                    
+                        #container{
+                            display: flex;
+                            flex-wrap: wrap;
+                            height: auto;
+                            text-align: justify;
+                            margin-top: 20px;
+                            margin-bottom: 20px ;
+                        }
+                        nav input{
+                            display: none;
+                        }
+                        nav button{
+                            display: none;
+                        }
+                        figure{
+                            width: 220px;
+                            flex-direction: column;
+                            height: 340px;
+                            margin: 25px auto;
+                        }
+                        #container #titulo1, #titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7, #titulo8,      #titulo9,    #titulo10{
+                            width: 100%;
+                            margin: 0px;
+                            text-align: center;
+                        
+                        }
+                        footer{
+                            display: flex;
+                            flex-wrap: wrap;
+                            height: auto;
+                            text-align: justify;
+                        }
+                        #formasdepag{
+                            width: 100%;
+                        }
+                        #iconespag{
+                            font-size: 18pt;
+                            margin-top: 5px;
+                            margin-left: 40px;
+                            margin-bottom: 10px;
+                        }
+                        #titulo1 #titulo2 #titulo3 #titulo4 #titulo5 #titulo6 #titulo7 #titulo8 #titulo9 #titulo10, hr{
+                            margin-right: 5%;
+                            margin-left: 5%;
+                        }
+                        nav{
+                            flex-direction: row;
+                        }
+                        #links{
+                            display: block;
+                            text-align: center;
+                            line-height: 40px;
+                            padding: 0%;
+                            margin-bottom: 30px;
+                        }
+                        #links a {
+                            font-size: 1.5em;
+                        }
+                        #contatos{
+                            display: none;
+                        }
+                        #logonav{
+                            width: 80px;
+                            object-fit: contain;
+                            margin: auto;
+                        }
+                        #pesquisa h1{
+                            margin: auto;
+                        }
+                        #links hr{
+                            display: block;
+                            border: 1px solid #fff;
+                            width: 100%;
+                            margin: 0px;
+                        }
+                    }
+
+                    
+                    #des{
+                        width: 100%;
+                        text-align: center;
+                        padding: 10px;
+                        background-color: #fff;
+                        border-radius: 10px;
+                        margin: 20px;
+                    }
+                    
